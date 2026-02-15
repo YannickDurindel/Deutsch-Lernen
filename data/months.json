@@ -19,5 +19,12 @@
   { "de": "der Monat", "en": "the month", "hint": "Related to 'Mond' (moon)" },
   { "de": "die Jahreszeit", "en": "the season", "hint": "Jahr (year) + Zeit (time)" },
   { "de": "jährlich", "en": "yearly / annual", "hint": "Jahr (year) + -lich (-ly)" },
-  { "de": "monatlich", "en": "monthly", "hint": "Monat (month) + -lich (-ly)" }
+  { "de": "monatlich", "en": "monthly", "hint": "Monat (month) + -lich (-ly)" },
+  { "de": "Weihnachten", "en": "Christmas", "hint": "Literally 'holy nights'" },
+  { "de": "Ostern", "en": "Easter", "hint": "From 'Osten' (east)" },
+  { "de": "Silvester", "en": "New Year's Eve", "hint": "December 31st celebration" },
+  { "de": "das Halbjahr", "en": "half year / semester", "hint": "Halb (half) + Jahr (year)" },
+  { "de": "das Quartal", "en": "the quarter (of a year)", "hint": "Similar to English 'quarter'" },
+  { "de": "das Jahrzehnt", "en": "the decade", "hint": "Jahr (year) + zehnt (tenth)" },
+  { "de": "das Jahrhundert", "en": "the century", "hint": "Jahr (year) + hundert (hundred)" }
 ]

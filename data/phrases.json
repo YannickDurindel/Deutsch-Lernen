@@ -28,5 +28,19 @@
   { "de": "Es tut mir leid.", "en": "I'm sorry.", "hint": "Literally: It does me sorrow", "context": "Apology" },
   { "de": "Kein Problem.", "en": "No problem.", "hint": "Similar to English", "context": "Response" },
   { "de": "Ich bin allergisch gegen...", "en": "I am allergic to...", "hint": "Important for dining out", "context": "Health" },
-  { "de": "Prost!", "en": "Cheers!", "hint": "Said when clinking glasses", "context": "Social" }
+  { "de": "Prost!", "en": "Cheers!", "hint": "Said when clinking glasses", "context": "Social" },
+  { "de": "Was ist los?", "en": "What's wrong? / What's going on?", "hint": "Los = loose/going on", "context": "Asking about situation" },
+  { "de": "Keine Ahnung.", "en": "No idea.", "hint": "Ahnung = clue/idea", "context": "Response" },
+  { "de": "Das macht nichts.", "en": "It doesn't matter. / Never mind.", "hint": "Nichts = nothing", "context": "Reassurance" },
+  { "de": "Ich bin verloren.", "en": "I am lost.", "hint": "Verloren = lost", "context": "Asking for help" },
+  { "de": "Können Sie mir helfen?", "en": "Can you help me? (formal)", "hint": "Helfen = to help", "context": "Asking for help" },
+  { "de": "Wo gibt es hier ein gutes Restaurant?", "en": "Where is there a good restaurant here?", "hint": "Es gibt = there is", "context": "Asking for recommendations" },
+  { "de": "Ich möchte einen Tisch für zwei Personen.", "en": "I would like a table for two.", "hint": "Personen = persons", "context": "Restaurant" },
+  { "de": "Was empfehlen Sie?", "en": "What do you recommend?", "hint": "Empfehlen = to recommend", "context": "Restaurant" },
+  { "de": "Das schmeckt sehr gut!", "en": "That tastes very good!", "hint": "Schmecken = to taste", "context": "Complimenting food" },
+  { "de": "Haben Sie WLAN?", "en": "Do you have WiFi?", "hint": "WLAN (Veh-Lahn) = WiFi in German", "context": "Practical" },
+  { "de": "Wie spät ist es?", "en": "What time is it?", "hint": "Spät = late, literally 'how late is it?'", "context": "Time" },
+  { "de": "Ich habe mich verlaufen.", "en": "I got lost (on foot).", "hint": "Sich verlaufen = to lose one's way", "context": "Navigation" },
+  { "de": "Stimmt so.", "en": "Keep the change.", "hint": "Said when paying and tipping", "context": "Payment" },
+  { "de": "Guten Appetit!", "en": "Enjoy your meal!", "hint": "Said before eating", "context": "Dining" }
 ]

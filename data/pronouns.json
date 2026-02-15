@@ -22,5 +22,18 @@
   { "de": "nichts", "en": "nothing", "hint": "Nicht (not) + s", "category": "indefinite" },
   { "de": "jemand", "en": "someone", "hint": "Sounds like 'yay-mand'", "category": "indefinite" },
   { "de": "niemand", "en": "no one / nobody", "hint": "Nie (never) + mand", "category": "indefinite" },
-  { "de": "alle", "en": "everyone / all", "hint": "Similar to English 'all'", "category": "indefinite" }
+  { "de": "alle", "en": "everyone / all", "hint": "Similar to English 'all'", "category": "indefinite" },
+  { "de": "mich", "en": "me (accusative)", "hint": "Ich sehe mich = I see myself", "category": "reflexive" },
+  { "de": "dich", "en": "you (accusative informal)", "hint": "Ich sehe dich = I see you", "category": "reflexive" },
+  { "de": "sich", "en": "himself / herself / itself / themselves", "hint": "Universal 3rd person reflexive", "category": "reflexive" },
+  { "de": "uns", "en": "us / ourselves", "hint": "Wir sehen uns = We see each other", "category": "reflexive" },
+  { "de": "euch", "en": "you all (accusative)", "hint": "Plural informal accusative/reflexive", "category": "reflexive" },
+  { "de": "wer", "en": "who", "hint": "Wer ist das? = Who is that?", "category": "interrogative" },
+  { "de": "was", "en": "what", "hint": "Was ist das? = What is that?", "category": "interrogative" },
+  { "de": "welcher", "en": "which", "hint": "Welcher Film? = Which film?", "category": "interrogative" },
+  { "de": "jeder", "en": "each / every", "hint": "Jeder Tag = every day", "category": "indefinite" },
+  { "de": "beide", "en": "both", "hint": "Beide Kinder = both children", "category": "indefinite" },
+  { "de": "viele", "en": "many", "hint": "Similar to 'viel' (much)", "category": "indefinite" },
+  { "de": "wenige", "en": "few", "hint": "Opposite of viele", "category": "indefinite" },
+  { "de": "einige", "en": "some / several", "hint": "Ein (one) + -ige", "category": "indefinite" }
 ]

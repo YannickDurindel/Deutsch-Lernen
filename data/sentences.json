@@ -178,5 +178,89 @@
     "en": "They say that German is a difficult language, but I find it beautiful.",
     "hint": "man sagt = one says/they say, Sprache = language, schwer = difficult",
     "difficulty": 3
+  },
+  {
+    "de": "Ich habe gestern ein neues Buch angefangen.",
+    "en": "I started a new book yesterday.",
+    "hint": "anfangen = to start (separable), gestern = yesterday",
+    "difficulty": 2
+  },
+  {
+    "de": "Das Wasser im See ist heute sehr kalt.",
+    "en": "The water in the lake is very cold today.",
+    "hint": "See = lake, kalt = cold",
+    "difficulty": 1
+  },
+  {
+    "de": "Mein Bruder arbeitet als Lehrer in einer Grundschule.",
+    "en": "My brother works as a teacher in an elementary school.",
+    "hint": "als = as, Lehrer = teacher, Grundschule = elementary school",
+    "difficulty": 2
+  },
+  {
+    "de": "Wir müssen uns beeilen, sonst verpassen wir den Zug.",
+    "en": "We have to hurry, otherwise we'll miss the train.",
+    "hint": "sich beeilen = to hurry, sonst = otherwise, verpassen = to miss",
+    "difficulty": 3
+  },
+  {
+    "de": "Sie hat vergessen, die Tür abzuschließen.",
+    "en": "She forgot to lock the door.",
+    "hint": "vergessen = to forget, abschließen = to lock (separable)",
+    "difficulty": 3
+  },
+  {
+    "de": "Im Sommer fahren wir oft an den See.",
+    "en": "In summer we often go to the lake.",
+    "hint": "im Sommer = in summer, an den See = to the lake",
+    "difficulty": 2
+  },
+  {
+    "de": "Könntest du mir bitte das Salz reichen?",
+    "en": "Could you please pass me the salt?",
+    "hint": "könntest = could (subjunctive), reichen = to pass/hand",
+    "difficulty": 2
+  },
+  {
+    "de": "Er ist gestern Abend sehr spät nach Hause gekommen.",
+    "en": "He came home very late last night.",
+    "hint": "gestern Abend = last night, spät = late, nach Hause = homeward",
+    "difficulty": 2
+  },
+  {
+    "de": "Ich wünschte, ich könnte besser Deutsch sprechen.",
+    "en": "I wish I could speak German better.",
+    "hint": "wünschen = to wish (Konjunktiv II), besser = better",
+    "difficulty": 3
+  },
+  {
+    "de": "Die Kinder haben den ganzen Tag im Garten gespielt.",
+    "en": "The children played in the garden all day.",
+    "hint": "den ganzen Tag = all day, Garten = garden, spielen → gespielt",
+    "difficulty": 2
+  },
+  {
+    "de": "Trotzdem bin ich froh, dass ich es versucht habe.",
+    "en": "Nevertheless, I'm glad that I tried it.",
+    "hint": "trotzdem = nevertheless, froh = glad, versuchen = to try",
+    "difficulty": 3
+  },
+  {
+    "de": "Jeden Morgen gehe ich mit meinem Hund spazieren.",
+    "en": "Every morning I go for a walk with my dog.",
+    "hint": "jeden Morgen = every morning, spazieren gehen = to go for a walk",
+    "difficulty": 2
+  },
+  {
+    "de": "Das Konzert war so laut, dass ich nichts hören konnte.",
+    "en": "The concert was so loud that I couldn't hear anything.",
+    "hint": "so...dass = so...that, laut = loud, hören = to hear",
+    "difficulty": 3
+  },
+  {
+    "de": "Meine Großmutter kocht den besten Kuchen der Welt.",
+    "en": "My grandmother bakes the best cake in the world.",
+    "hint": "Großmutter = grandmother, besten = best (superlative), Welt = world",
+    "difficulty": 2
   }
 ]

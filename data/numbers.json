@@ -38,5 +38,14 @@
   { "de": "fünfte", "en": "fifth", "hint": "Ordinal of fünf" },
   { "de": "zehnte", "en": "tenth", "hint": "Ordinal of zehn" },
   { "de": "zwanzigste", "en": "twentieth", "hint": "Ordinal of zwanzig" },
-  { "de": "letzte", "en": "last", "hint": "As in 'the last one'" }
+  { "de": "letzte", "en": "last", "hint": "As in 'the last one'" },
+  { "de": "zweihundert", "en": "two hundred", "hint": "zwei (2) + hundert (100)" },
+  { "de": "fünfhundert", "en": "five hundred", "hint": "fünf (5) + hundert (100)" },
+  { "de": "zehntausend", "en": "ten thousand", "hint": "zehn (10) + tausend (1000)" },
+  { "de": "eine Milliarde", "en": "one billion", "hint": "German Milliarde = English billion!" },
+  { "de": "die Hälfte", "en": "the half", "hint": "Think 'half'" },
+  { "de": "ein Drittel", "en": "a third", "hint": "Drei → Drittel" },
+  { "de": "ein Viertel", "en": "a quarter", "hint": "Vier → Viertel" },
+  { "de": "doppelt", "en": "double", "hint": "Similar to English 'double'" },
+  { "de": "ein Paar", "en": "a pair / a couple", "hint": "Similar to English 'pair'" }
 ]

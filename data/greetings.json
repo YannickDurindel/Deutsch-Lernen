@@ -19,5 +19,14 @@
   { "de": "Willkommen", "en": "Welcome", "hint": "Will + kommen = want to come" },
   { "de": "Alles Gute", "en": "All the best", "hint": "Alles = all, Gute = good" },
   { "de": "Viel Spaß", "en": "Have fun", "hint": "Viel = much, Spaß = fun" },
-  { "de": "Viel Glück", "en": "Good luck", "hint": "Viel = much, Glück = luck" }
+  { "de": "Viel Glück", "en": "Good luck", "hint": "Viel = much, Glück = luck" },
+  { "de": "Gern geschehen", "en": "You're welcome", "hint": "Literally: gladly happened" },
+  { "de": "Macht nichts", "en": "No worries / It doesn't matter", "hint": "Casual way to dismiss something" },
+  { "de": "Schönen Tag noch", "en": "Have a nice day", "hint": "Said when parting ways" },
+  { "de": "Frohe Weihnachten", "en": "Merry Christmas", "hint": "Froh = happy, Weihnachten = Christmas" },
+  { "de": "Frohes neues Jahr", "en": "Happy New Year", "hint": "Neues Jahr = new year" },
+  { "de": "Alles Gute zum Geburtstag", "en": "Happy birthday", "hint": "Geburtstag = birthday" },
+  { "de": "Herzlichen Glückwunsch", "en": "Congratulations", "hint": "Herzlich = heartfelt, Glückwunsch = good wish" },
+  { "de": "Gute Besserung", "en": "Get well soon", "hint": "Said to someone who is sick" },
+  { "de": "Mahlzeit", "en": "Enjoy your meal (greeting)", "hint": "Said around lunchtime as a greeting" }
 ]

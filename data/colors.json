@@ -13,5 +13,14 @@
   { "de": "dunkelblau", "en": "dark blue", "hint": "Dunkel (dark) + blau (blue)" },
   { "de": "hellblau", "en": "light blue", "hint": "Hell (light/bright) + blau (blue)" },
   { "de": "gold", "en": "gold", "hint": "Same as English" },
-  { "de": "silber", "en": "silver", "hint": "Similar to English 'silver'" }
+  { "de": "silber", "en": "silver", "hint": "Similar to English 'silver'" },
+  { "de": "beige", "en": "beige", "hint": "Same as English, from French" },
+  { "de": "türkis", "en": "turquoise", "hint": "Similar to English 'turquoise'" },
+  { "de": "dunkelgrün", "en": "dark green", "hint": "Dunkel (dark) + grün (green)" },
+  { "de": "hellgrün", "en": "light green", "hint": "Hell (light) + grün (green)" },
+  { "de": "dunkelrot", "en": "dark red", "hint": "Dunkel (dark) + rot (red)" },
+  { "de": "bunt", "en": "colorful", "hint": "Think 'bunting' with bright colors" },
+  { "de": "hellgelb", "en": "light yellow", "hint": "Hell (light) + gelb (yellow)" },
+  { "de": "violett", "en": "violet", "hint": "Similar to English 'violet'" },
+  { "de": "cremefarben", "en": "cream-colored", "hint": "Creme + farben (colored)" }
 ]

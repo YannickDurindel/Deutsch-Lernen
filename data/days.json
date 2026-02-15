@@ -15,5 +15,13 @@
   { "de": "das Wochenende", "en": "the weekend", "hint": "Wochen (week) + Ende (end)" },
   { "de": "der Tag", "en": "the day", "hint": "All days end in -tag!" },
   { "de": "täglich", "en": "daily", "hint": "Tag (day) + -lich (-ly)" },
-  { "de": "wöchentlich", "en": "weekly", "hint": "Woche (week) + -lich (-ly)" }
+  { "de": "wöchentlich", "en": "weekly", "hint": "Woche (week) + -lich (-ly)" },
+  { "de": "der Morgen", "en": "the morning", "hint": "Also means 'tomorrow' (lowercase)" },
+  { "de": "der Nachmittag", "en": "the afternoon", "hint": "Nach (after) + Mittag (midday)" },
+  { "de": "der Abend", "en": "the evening", "hint": "Guten Abend = Good evening" },
+  { "de": "die Nacht", "en": "the night", "hint": "Similar to English 'night'" },
+  { "de": "der Mittag", "en": "noon / midday", "hint": "Mitte (middle) + Tag (day)" },
+  { "de": "die Mitternacht", "en": "midnight", "hint": "Mitte (middle) + Nacht (night)" },
+  { "de": "der Feiertag", "en": "the holiday", "hint": "Feier (celebration) + Tag (day)" },
+  { "de": "der Werktag", "en": "the workday", "hint": "Werk (work) + Tag (day)" }
 ]
