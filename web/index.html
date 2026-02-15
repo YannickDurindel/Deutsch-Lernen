@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deutsch Lernen - German Vocabulary Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+          integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ============================== -->
+    <!-- NOTIFICATION / TOAST AREA      -->
+    <!-- ============================== -->
+    <div id="toast-container" aria-live="polite" aria-atomic="true"></div>
+
+    <!-- ============================== -->
+    <!-- DASHBOARD / HOME SCREEN        -->
+    <!-- ============================== -->
+    <section id="dashboard" class="screen active">
+
+        <!-- German Flag Header -->
+        <header class="app-header">
+            <div class="flag-stripe flag-black"></div>
+            <div class="flag-stripe flag-red"></div>
+            <div class="flag-stripe flag-gold"></div>
+            <div class="header-content">
+                <h1 class="app-title">
+                    <i class="fas fa-graduation-cap"></i>
+                    Deutsch Lernen
+                </h1>
+                <p class="app-subtitle">Master German vocabulary, one word at a time</p>
+            </div>
+        </header>
+
+        <!-- Stats Bar -->
+        <div class="stats-bar">
+            <div class="stat-item">
+                <i class="fas fa-star stat-icon xp-icon"></i>
+                <div class="stat-info">
+                    <span class="stat-value" id="stat-xp">0</span>
+                    <span class="stat-label">XP</span>
+                </div>
+            </div>
+            <div class="stat-item">
+                <i class="fas fa-fire stat-icon streak-icon"></i>
+                <div class="stat-info">
+                    <span class="stat-value" id="stat-streak">0</span>
+                    <span class="stat-label">Day Streak</span>
+                </div>
+            </div>
+            <div class="stat-item">
+                <i class="fas fa-book stat-icon words-icon"></i>
+                <div class="stat-info">
+                    <span class="stat-value" id="stat-words-learned">0</span>
+                    <span class="stat-label">Words Learned</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quick Actions -->
+        <div class="dashboard-actions">
+            <button class="btn btn-secondary" id="open-library">
+                <i class="fas fa-book-open"></i> Library
+            </button>
+            <button class="btn btn-secondary" id="open-sentences">
+                <i class="fas fa-align-left"></i> Sentences
+            </button>
+        </div>
+
+        <!-- Category Grid -->
+        <div class="dashboard-section">
+            <h2 class="section-title">Categories</h2>
+            <div class="category-grid" id="category-grid">
+
+                <button class="category-card" data-category="numbers">
+                    <div class="category-emoji">🔢</div>
+                    <h3 class="category-name">Numbers</h3>
+                    <span class="category-word-count"><i class="fas fa-layer-group"></i> <span class="word-count-value">0 words</span></span>
+                    <div class="mastery-bar-container">
+                        <div class="mastery-bar" style="width: 0%"></div>
+                    </div>
+                    <span class="mastery-percentage">0% mastered</span>
+                </button>
+
+                <button class="category-card" data-category="days">
+                    <div class="category-emoji">📅</div>
+                    <h3 class="category-name">Days</h3>
+                    <span class="category-word-count"><i class="fas fa-layer-group"></i> <span class="word-count-value">0 words</span></span>
+                    <div class="mastery-bar-container">
+                        <div class="mastery-bar" style="width: 0%"></div>
+                    </div>
+                    <span class="mastery-percentage">0% mastered</span>
+                </button>
+
+                <button class="category-card" data-category="months">
+                    <div class="category-emoji">🗓️</div>
+                    <h3 class="category-name">Months</h3>
+                    <span class="category-word-count"><i class="fas fa-layer-group"></i> <span class="word-count-value">0 words</span></span>
+                    <div class="mastery-bar-container">
+                        <div class="mastery-bar" style="width: 0%"></div>
+                    </div>
+                    <span class="mastery-percentage">0% mastered</span>
+                </button>
+
+                <button class="category-card" data-category="verbs">
+                    <div class="category-emoji">🏃</div>
+                    <h3 class="category-name">Verbs</h3>
+                    <span class="category-word-count"><i class="fas fa-layer-group"></i> <span class="word-count-value">0 words</span></span>
+                    <div class="mastery-bar-container">
+                        <div class="mastery-bar" style="width: 0%"></div>
+                    </div>
+                    <span class="mastery-percentage">0% mastered</span>
+                </button>
+
+                <button class="category-card" data-category="nouns">
+                    <div class="category-emoji">📦</div>
+                    <h3 class="category-name">Nouns</h3>
+                    <span class="category-word-count"><i class="fas fa-layer-group"></i> <span class="word-count-value">0 words</span></span>
+                    <div class="mastery-bar-container">
+                        <div class="mastery-bar" style="width: 0%"></div>
+                    </div>
+                    <span class="mastery-percentage">0% mastered</span>
+                </button>
+
+                <button class="category-card" data-category="adjectives">
+                    <div class="category-emoji">🎨</div>
+                    <h3 class="category-name">Adjectives</h3>
+                    <span class="category-word-count"><i class="fas fa-layer-group"></i> <span class="word-count-value">0 words</span></span>
+                    <div class="mastery-bar-container">
+                        <div class="mastery-bar" style="width: 0%"></div>
+                    </div>
+                    <span class="mastery-percentage">0% mastered</span>
+                </button>
+
+                <button class="category-card" data-category="adverbs">
+                    <div class="category-emoji">⚡</div>
+                    <h3 class="category-name">Adverbs</h3>
+                    <span class="category-word-count"><i class="fas fa-layer-group"></i> <span class="word-count-value">0 words</span></span>
+                    <div class="mastery-bar-container">
+                        <div class="mastery-bar" style="width: 0%"></div>
+                    </div>
+                    <span class="mastery-percentage">0% mastered</span>
+                </button>
+
+                <button class="category-card" data-category="phrases">
+                    <div class="category-emoji">💬</div>
+                    <h3 class="category-name">Phrases</h3>
+                    <span class="category-word-count"><i class="fas fa-layer-group"></i> <span class="word-count-value">0 words</span></span>
+                    <div class="mastery-bar-container">
+                        <div class="mastery-bar" style="width: 0%"></div>
+                    </div>
+                    <span class="mastery-percentage">0% mastered</span>
+                </button>
+
+                <button class="category-card" data-category="colors">
+                    <div class="category-emoji">🌈</div>
+                    <h3 class="category-name">Colors</h3>
+                    <span class="category-word-count"><i class="fas fa-layer-group"></i> <span class="word-count-value">0 words</span></span>
+                    <div class="mastery-bar-container">
+                        <div class="mastery-bar" style="width: 0%"></div>
+                    </div>
+                    <span class="mastery-percentage">0% mastered</span>
+                </button>
+
+                <button class="category-card" data-category="greetings">
+                    <div class="category-emoji">👋</div>
+                    <h3 class="category-name">Greetings</h3>
+                    <span class="category-word-count"><i class="fas fa-layer-group"></i> <span class="word-count-value">0 words</span></span>
+                    <div class="mastery-bar-container">
+                        <div class="mastery-bar" style="width: 0%"></div>
+                    </div>
+                    <span class="mastery-percentage">0% mastered</span>
+                </button>
+
+                <button class="category-card" data-category="pronouns">
+                    <div class="category-emoji">👤</div>
+                    <h3 class="category-name">Pronouns</h3>
+                    <span class="category-word-count"><i class="fas fa-layer-group"></i> <span class="word-count-value">0 words</span></span>
+                    <div class="mastery-bar-container">
+                        <div class="mastery-bar" style="width: 0%"></div>
+                    </div>
+                    <span class="mastery-percentage">0% mastered</span>
+                </button>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================== -->
+    <!-- GAME MODE SELECTION             -->
+    <!-- ============================== -->
+    <section id="mode-select" class="screen">
+        <nav class="screen-nav">
+            <button class="btn-back" id="mode-select-back" aria-label="Back to dashboard">
+                <i class="fas fa-arrow-left"></i> Back
+            </button>
+        </nav>
+
+        <div class="mode-select-content">
+            <h2 class="mode-category-name" id="mode-category-name">Category Name</h2>
+            <p class="mode-select-subtitle">Choose how you want to practice</p>
+
+            <div class="mode-grid">
+                <button class="mode-card" data-mode="flashcards">
+                    <div class="mode-icon"><i class="fas fa-clone"></i></div>
+                    <h3 class="mode-name">Flashcards</h3>
+                    <p class="mode-description">Browse and flip cards to study at your own pace</p>
+                </button>
+
+                <button class="mode-card" data-mode="quiz">
+                    <div class="mode-icon"><i class="fas fa-question-circle"></i></div>
+                    <h3 class="mode-name">Quiz</h3>
+                    <p class="mode-description">Test yourself with multiple choice questions</p>
+                </button>
+
+                <button class="mode-card" data-mode="type-it">
+                    <div class="mode-icon"><i class="fas fa-keyboard"></i></div>
+                    <h3 class="mode-name">Type It</h3>
+                    <p class="mode-description">Type the correct translation from memory</p>
+                </button>
+
+                <button class="mode-card" data-mode="speed-round">
+                    <div class="mode-icon"><i class="fas fa-bolt"></i></div>
+                    <h3 class="mode-name">Speed Round</h3>
+                    <p class="mode-description">Answer as many as you can in 60 seconds</p>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================== -->
+    <!-- FLASHCARD MODE                  -->
+    <!-- ============================== -->
+    <section id="flashcard-mode" class="screen">
+        <nav class="screen-nav">
+            <button class="btn-back" id="flashcard-back" aria-label="Back to mode selection">
+                <i class="fas fa-arrow-left"></i> Back
+            </button>
+            <div class="screen-nav-center">
+                <span class="progress-indicator" id="flashcard-progress">Card 1 of 10</span>
+            </div>
+            <div class="direction-toggle" id="flashcard-direction-toggle">
+                <button class="direction-btn active" data-direction="en-de">EN &rarr; DE</button>
+                <button class="direction-btn" data-direction="de-en">DE &rarr; EN</button>
+            </div>
+        </nav>
+
+        <div class="flashcard-container">
+            <div class="flashcard" id="flashcard" tabindex="0" role="button" aria-label="Click or press space to flip card">
+                <div class="flashcard-inner">
+                    <div class="flashcard-front">
+                        <span class="flashcard-lang-label">English</span>
+                        <p class="flashcard-word" id="flashcard-front-word">Hello</p>
+                    </div>
+                    <div class="flashcard-back">
+                        <span class="flashcard-lang-label">Deutsch</span>
+                        <p class="flashcard-word" id="flashcard-back-word">Hallo</p>
+                        <p class="flashcard-hint" id="flashcard-hint">
+                            <i class="fas fa-lightbulb"></i> <span class="hint-text">Common informal greeting</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="flashcard-controls">
+            <div class="flashcard-nav-buttons">
+                <button class="btn btn-warning" id="flashcard-still-learning">
+                    <i class="fas fa-arrow-left"></i> Still learning
+                </button>
+                <button class="btn btn-primary" id="flashcard-flip">
+                    <i class="fas fa-sync-alt"></i> Flip <kbd>Space</kbd>
+                </button>
+                <button class="btn btn-success" id="flashcard-got-it">
+                    Got it <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================== -->
+    <!-- QUIZ MODE                       -->
+    <!-- ============================== -->
+    <section id="quiz-mode" class="screen">
+        <nav class="screen-nav">
+            <button class="btn-back" id="quiz-back" aria-label="Back to mode selection">
+                <i class="fas fa-arrow-left"></i> Back
+            </button>
+            <div class="screen-nav-center">
+                <span class="score-display" id="quiz-score">
+                    <i class="fas fa-check-circle"></i> <span class="score-correct">0</span> / <span class="score-total">0</span>
+                </span>
+            </div>
+            <div class="direction-toggle" id="quiz-direction-toggle">
+                <button class="direction-btn active" data-direction="en-de">EN &rarr; DE</button>
+                <button class="direction-btn" data-direction="de-en">DE &rarr; EN</button>
+            </div>
+        </nav>
+
+        <div class="quiz-container">
+            <div class="quiz-question-area">
+                <p class="quiz-prompt">What is the German translation of:</p>
+                <h2 class="quiz-question-word" id="quiz-question">Hello</h2>
+            </div>
+
+            <div class="quiz-options" id="quiz-options">
+                <button class="quiz-option-btn" data-option="0">Hallo</button>
+                <button class="quiz-option-btn" data-option="1">Tsch&uuml;ss</button>
+                <button class="quiz-option-btn" data-option="2">Danke</button>
+                <button class="quiz-option-btn" data-option="3">Bitte</button>
+            </div>
+
+            <div class="quiz-feedback" id="quiz-feedback" aria-live="polite">
+                <div class="feedback-icon"></div>
+                <p class="feedback-message"></p>
+                <p class="feedback-correct-answer"></p>
+            </div>
+
+            <button class="btn btn-primary quiz-next-btn" id="quiz-next">
+                Next <i class="fas fa-arrow-right"></i>
+            </button>
+        </div>
+    </section>
+
+    <!-- ============================== -->
+    <!-- TYPE IT MODE                    -->
+    <!-- ============================== -->
+    <section id="type-mode" class="screen">
+        <nav class="screen-nav">
+            <button class="btn-back" id="type-back" aria-label="Back to mode selection">
+                <i class="fas fa-arrow-left"></i> Back
+            </button>
+            <div class="screen-nav-center">
+                <span class="score-display" id="type-score">
+                    <i class="fas fa-check-circle"></i> <span class="score-correct">0</span> / <span class="score-total">0</span>
+                </span>
+            </div>
+            <div class="direction-toggle" id="type-direction-toggle">
+                <button class="direction-btn active" data-direction="en-de">EN &rarr; DE</button>
+                <button class="direction-btn" data-direction="de-en">DE &rarr; EN</button>
+            </div>
+        </nav>
+
+        <div class="type-container">
+            <div class="type-question-area">
+                <p class="type-prompt">Type the German translation of:</p>
+                <h2 class="type-question-word" id="type-question">Hello</h2>
+            </div>
+
+            <div class="type-input-area">
+                <div class="type-input-wrapper">
+                    <input type="text"
+                           class="type-input"
+                           id="type-input"
+                           placeholder="Type your answer..."
+                           autocomplete="off"
+                           autocapitalize="off"
+                           spellcheck="false"
+                           aria-label="Type your translation">
+                    <button class="btn btn-primary type-submit-btn" id="type-submit">
+                        <i class="fas fa-paper-plane"></i> Submit
+                    </button>
+                </div>
+            </div>
+
+            <div class="type-feedback" id="type-feedback" aria-live="polite">
+                <div class="feedback-icon"></div>
+                <p class="feedback-message"></p>
+                <div class="feedback-correction">
+                    <span class="correction-label">Correct answer:</span>
+                    <span class="correction-answer" id="type-correct-answer"></span>
+                </div>
+            </div>
+
+            <button class="btn btn-primary type-next-btn" id="type-next">
+                Next <i class="fas fa-arrow-right"></i>
+            </button>
+        </div>
+    </section>
+
+    <!-- ============================== -->
+    <!-- SPEED ROUND MODE                -->
+    <!-- ============================== -->
+    <section id="speed-mode" class="screen">
+        <nav class="screen-nav">
+            <button class="btn-back" id="speed-back" aria-label="Back to mode selection">
+                <i class="fas fa-arrow-left"></i> Back
+            </button>
+            <div class="screen-nav-center">
+                <div class="speed-hud">
+                    <span class="speed-timer" id="speed-timer">
+                        <i class="fas fa-clock"></i> <span class="timer-value">60</span>s
+                    </span>
+                    <span class="speed-score" id="speed-score">
+                        <i class="fas fa-trophy"></i> <span class="speed-score-value">0</span>
+                    </span>
+                </div>
+            </div>
+        </nav>
+
+        <div class="speed-container">
+            <!-- Start Overlay -->
+            <div class="speed-start-overlay" id="speed-start-overlay">
+                <div class="speed-start-content">
+                    <div class="speed-start-icon"><i class="fas fa-bolt"></i></div>
+                    <h2>Speed Round</h2>
+                    <p>Answer as many questions as you can in 60 seconds!</p>
+                    <button class="btn btn-primary btn-large" id="speed-start-btn">
+                        <i class="fas fa-play"></i> Start
+                    </button>
+                </div>
+            </div>
+
+            <!-- Game Area -->
+            <div class="speed-game-area" id="speed-game-area">
+                <div class="speed-question-area">
+                    <h2 class="speed-question-word" id="speed-question">Hello</h2>
+                </div>
+
+                <div class="speed-options" id="speed-options">
+                    <button class="speed-option-btn" data-option="0">Hallo</button>
+                    <button class="speed-option-btn" data-option="1">Tsch&uuml;ss</button>
+                    <button class="speed-option-btn" data-option="2">Danke</button>
+                    <button class="speed-option-btn" data-option="3">Bitte</button>
+                </div>
+            </div>
+
+            <!-- Results Screen -->
+            <div class="speed-results" id="speed-results">
+                <div class="speed-results-content">
+                    <div class="results-icon"><i class="fas fa-flag-checkered"></i></div>
+                    <h2>Time's Up!</h2>
+                    <div class="results-stats">
+                        <div class="results-stat">
+                            <span class="results-stat-value" id="speed-final-score">0</span>
+                            <span class="results-stat-label">Score</span>
+                        </div>
+                        <div class="results-stat">
+                            <span class="results-stat-value" id="speed-correct-count">0</span>
+                            <span class="results-stat-label">Correct</span>
+                        </div>
+                        <div class="results-stat">
+                            <span class="results-stat-value" id="speed-personal-best">0</span>
+                            <span class="results-stat-label">Personal Best</span>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary btn-large" id="speed-play-again">
+                        <i class="fas fa-redo"></i> Play Again
+                    </button>
+                    <button class="btn btn-secondary" id="speed-results-back">
+                        <i class="fas fa-arrow-left"></i> Back to Modes
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================== -->
+    <!-- LIBRARY (Word Reference)       -->
+    <!-- ============================== -->
+    <section id="library-mode" class="screen">
+        <nav class="screen-nav">
+            <button class="btn-back" id="library-back" aria-label="Back to dashboard">
+                <i class="fas fa-arrow-left"></i> Back
+            </button>
+            <div class="screen-nav-center">
+                <h2 class="screen-title">Library</h2>
+            </div>
+            <div class="library-search-wrapper">
+                <input type="text" class="library-search" id="library-search"
+                       placeholder="Search words..." autocomplete="off" spellcheck="false">
+            </div>
+        </nav>
+
+        <div class="library-container">
+            <div class="library-tabs" id="library-tabs"></div>
+            <div class="library-table-wrapper">
+                <table class="library-table" id="library-table">
+                    <thead>
+                        <tr>
+                            <th>Deutsch</th>
+                            <th>English</th>
+                            <th>Hint</th>
+                            <th>Mastery</th>
+                        </tr>
+                    </thead>
+                    <tbody id="library-table-body"></tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================== -->
+    <!-- SENTENCES / READING            -->
+    <!-- ============================== -->
+    <section id="sentences-mode" class="screen">
+        <nav class="screen-nav">
+            <button class="btn-back" id="sentences-back" aria-label="Back to dashboard">
+                <i class="fas fa-arrow-left"></i> Back
+            </button>
+            <div class="screen-nav-center">
+                <span class="score-display" id="sentences-score">
+                    <i class="fas fa-check-circle"></i> <span class="score-correct">0</span> / <span class="score-total">0</span>
+                </span>
+            </div>
+            <div class="difficulty-toggle" id="sentences-difficulty">
+                <button class="direction-btn active" data-diff="all">All</button>
+                <button class="direction-btn" data-diff="1">Easy</button>
+                <button class="direction-btn" data-diff="2">Medium</button>
+                <button class="direction-btn" data-diff="3">Hard</button>
+            </div>
+        </nav>
+
+        <div class="sentences-container">
+            <!-- Start screen -->
+            <div class="sentences-start" id="sentences-start">
+                <div class="sentences-start-icon"><i class="fas fa-align-left"></i></div>
+                <h2>Reading Comprehension</h2>
+                <p>Read German sentences and select the correct English translation.</p>
+                <button class="btn btn-primary btn-large" id="sentences-start-btn">
+                    <i class="fas fa-play"></i> Start
+                </button>
+            </div>
+
+            <!-- Question area -->
+            <div class="sentences-game" id="sentences-game" style="display:none">
+                <div class="sentence-card">
+                    <p class="sentence-de" id="sentence-de">German sentence here</p>
+                    <p class="sentence-hint" id="sentence-hint">
+                        <i class="fas fa-lightbulb"></i> <span class="hint-text"></span>
+                    </p>
+                </div>
+
+                <div class="sentence-options" id="sentence-options"></div>
+
+                <div class="sentence-feedback" id="sentence-feedback" style="display:none">
+                    <div class="feedback-icon"></div>
+                    <p class="feedback-message"></p>
+                    <p class="feedback-correct-answer"></p>
+                </div>
+
+                <button class="btn btn-primary sentence-next-btn" id="sentence-next" style="display:none">
+                    Next <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+
+            <!-- Results -->
+            <div class="sentences-results" id="sentences-results" style="display:none">
+                <div class="results-icon"><i class="fas fa-flag-checkered"></i></div>
+                <h2>Round Complete!</h2>
+                <div class="results-stats">
+                    <div class="results-stat">
+                        <span class="results-stat-value" id="sentences-final-score">0</span>
+                        <span class="results-stat-label">Correct</span>
+                    </div>
+                    <div class="results-stat">
+                        <span class="results-stat-value" id="sentences-total-count">0</span>
+                        <span class="results-stat-label">Total</span>
+                    </div>
+                </div>
+                <button class="btn btn-primary btn-large" id="sentences-play-again">
+                    <i class="fas fa-redo"></i> Play Again
+                </button>
+                <button class="btn btn-secondary" id="sentences-done">
+                    <i class="fas fa-arrow-left"></i> Back to Dashboard
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>

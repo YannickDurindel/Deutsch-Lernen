@@ -1,0 +1,182 @@
+[
+  {
+    "de": "Ich gehe jeden Tag zur Schule.",
+    "en": "I go to school every day.",
+    "hint": "gehen = to go, jeden Tag = every day, Schule = school",
+    "difficulty": 1
+  },
+  {
+    "de": "Der Hund spielt im Garten.",
+    "en": "The dog is playing in the garden.",
+    "hint": "spielen = to play, im = in the, Garten = garden",
+    "difficulty": 1
+  },
+  {
+    "de": "Ich trinke morgens gern Kaffee.",
+    "en": "I like to drink coffee in the morning.",
+    "hint": "morgens = in the morning, gern = gladly/like to",
+    "difficulty": 1
+  },
+  {
+    "de": "Das Wetter ist heute sehr schön.",
+    "en": "The weather is very nice today.",
+    "hint": "Wetter = weather, heute = today, schön = nice",
+    "difficulty": 1
+  },
+  {
+    "de": "Meine Familie wohnt in Berlin.",
+    "en": "My family lives in Berlin.",
+    "hint": "meine = my, wohnen = to live (reside)",
+    "difficulty": 1
+  },
+  {
+    "de": "Kannst du mir bitte helfen?",
+    "en": "Can you please help me?",
+    "hint": "können = can, helfen = to help, mir = me",
+    "difficulty": 1
+  },
+  {
+    "de": "Ich habe zwei Brüder und eine Schwester.",
+    "en": "I have two brothers and one sister.",
+    "hint": "Brüder = brothers (plural of Bruder)",
+    "difficulty": 1
+  },
+  {
+    "de": "Wir essen um sieben Uhr zu Abend.",
+    "en": "We eat dinner at seven o'clock.",
+    "hint": "zu Abend essen = to eat dinner, um = at (time)",
+    "difficulty": 1
+  },
+  {
+    "de": "Er liest ein Buch in der Bibliothek.",
+    "en": "He is reading a book in the library.",
+    "hint": "lesen → er liest (stem change), Bibliothek = library",
+    "difficulty": 2
+  },
+  {
+    "de": "Sie fährt mit dem Zug zur Arbeit.",
+    "en": "She takes the train to work.",
+    "hint": "fahren → sie fährt, mit dem Zug = by train",
+    "difficulty": 2
+  },
+  {
+    "de": "Ich möchte ein Glas Wasser, bitte.",
+    "en": "I would like a glass of water, please.",
+    "hint": "möchte = would like, Glas = glass",
+    "difficulty": 1
+  },
+  {
+    "de": "Die Kinder spielen draußen, weil das Wetter gut ist.",
+    "en": "The children are playing outside because the weather is good.",
+    "hint": "weil = because (sends verb to end), draußen = outside",
+    "difficulty": 2
+  },
+  {
+    "de": "Ich muss morgen früh aufstehen.",
+    "en": "I have to get up early tomorrow.",
+    "hint": "müssen = must/have to, aufstehen = to get up (separable verb)",
+    "difficulty": 2
+  },
+  {
+    "de": "Wo ist der nächste Supermarkt?",
+    "en": "Where is the nearest supermarket?",
+    "hint": "nächste = nearest/next, Supermarkt = supermarket",
+    "difficulty": 1
+  },
+  {
+    "de": "Wir haben gestern einen Film gesehen.",
+    "en": "We watched a movie yesterday.",
+    "hint": "haben...gesehen = have seen (Perfekt tense), gestern = yesterday",
+    "difficulty": 2
+  },
+  {
+    "de": "Ich lerne seit drei Monaten Deutsch.",
+    "en": "I have been learning German for three months.",
+    "hint": "seit = since/for (duration), Monaten = months (dative)",
+    "difficulty": 2
+  },
+  {
+    "de": "Das Restaurant an der Ecke ist sehr gut.",
+    "en": "The restaurant on the corner is very good.",
+    "hint": "an der Ecke = on the corner",
+    "difficulty": 2
+  },
+  {
+    "de": "Können Sie mir den Weg zum Bahnhof zeigen?",
+    "en": "Can you show me the way to the train station?",
+    "hint": "zeigen = to show, Weg = way/path",
+    "difficulty": 2
+  },
+  {
+    "de": "Ich habe Kopfschmerzen und möchte nach Hause gehen.",
+    "en": "I have a headache and would like to go home.",
+    "hint": "Kopfschmerzen = headache (Kopf=head + Schmerzen=pain), nach Hause = homeward",
+    "difficulty": 2
+  },
+  {
+    "de": "Am Wochenende fahren wir in die Berge.",
+    "en": "On the weekend we are going to the mountains.",
+    "hint": "am Wochenende = on the weekend, Berge = mountains",
+    "difficulty": 2
+  },
+  {
+    "de": "Er hat mir zum Geburtstag ein Buch geschenkt.",
+    "en": "He gave me a book for my birthday.",
+    "hint": "schenken = to give as a gift, Geburtstag = birthday",
+    "difficulty": 3
+  },
+  {
+    "de": "Obwohl es regnet, gehen wir spazieren.",
+    "en": "Although it's raining, we are going for a walk.",
+    "hint": "obwohl = although (subordinating), spazieren gehen = to go for a walk",
+    "difficulty": 3
+  },
+  {
+    "de": "Ich würde gern nach Deutschland reisen.",
+    "en": "I would like to travel to Germany.",
+    "hint": "würde = would (Konjunktiv II), reisen = to travel",
+    "difficulty": 3
+  },
+  {
+    "de": "Wenn ich mehr Zeit hätte, würde ich öfter kochen.",
+    "en": "If I had more time, I would cook more often.",
+    "hint": "wenn = if, hätte = had (subjunctive), öfter = more often",
+    "difficulty": 3
+  },
+  {
+    "de": "Die Stadt, in der ich aufgewachsen bin, ist sehr klein.",
+    "en": "The city where I grew up is very small.",
+    "hint": "in der = in which (relative clause), aufwachsen = to grow up",
+    "difficulty": 3
+  },
+  {
+    "de": "Es ist wichtig, dass man jeden Tag etwas Neues lernt.",
+    "en": "It is important that you learn something new every day.",
+    "hint": "dass = that (subordinating), etwas Neues = something new",
+    "difficulty": 3
+  },
+  {
+    "de": "Nachdem wir gegessen hatten, gingen wir ins Kino.",
+    "en": "After we had eaten, we went to the cinema.",
+    "hint": "nachdem = after (subordinating), Plusquamperfekt: hatten gegessen",
+    "difficulty": 3
+  },
+  {
+    "de": "Je mehr man übt, desto besser wird man.",
+    "en": "The more you practice, the better you get.",
+    "hint": "je...desto = the...the (comparative), üben = to practice",
+    "difficulty": 3
+  },
+  {
+    "de": "Ich freue mich auf den Urlaub nächsten Monat.",
+    "en": "I am looking forward to the vacation next month.",
+    "hint": "sich freuen auf = to look forward to (reflexive), Urlaub = vacation",
+    "difficulty": 3
+  },
+  {
+    "de": "Man sagt, dass Deutsch eine schwere Sprache ist, aber ich finde sie schön.",
+    "en": "They say that German is a difficult language, but I find it beautiful.",
+    "hint": "man sagt = one says/they say, Sprache = language, schwer = difficult",
+    "difficulty": 3
+  }
+]

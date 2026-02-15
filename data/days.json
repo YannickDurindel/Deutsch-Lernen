@@ -1,0 +1,19 @@
+[
+  { "de": "Montag", "en": "Monday", "hint": "Mon-tag = Moon day" },
+  { "de": "Dienstag", "en": "Tuesday", "hint": "Dienst = service" },
+  { "de": "Mittwoch", "en": "Wednesday", "hint": "Mitte = middle of the Woche (week)" },
+  { "de": "Donnerstag", "en": "Thursday", "hint": "Donner = thunder (Thor's day)" },
+  { "de": "Freitag", "en": "Friday", "hint": "Frei = free day (Freya's day)" },
+  { "de": "Samstag", "en": "Saturday", "hint": "From Sabbath" },
+  { "de": "Sonntag", "en": "Sunday", "hint": "Sonne = sun → Sun day" },
+  { "de": "heute", "en": "today", "hint": "Sounds like 'hoy-tuh'" },
+  { "de": "morgen", "en": "tomorrow", "hint": "Also means 'morning'" },
+  { "de": "gestern", "en": "yesterday", "hint": "Sounds like 'geh-stern'" },
+  { "de": "übermorgen", "en": "day after tomorrow", "hint": "über (over) + morgen (tomorrow)" },
+  { "de": "vorgestern", "en": "day before yesterday", "hint": "vor (before) + gestern (yesterday)" },
+  { "de": "die Woche", "en": "the week", "hint": "Sounds like 'vo-khuh'" },
+  { "de": "das Wochenende", "en": "the weekend", "hint": "Wochen (week) + Ende (end)" },
+  { "de": "der Tag", "en": "the day", "hint": "All days end in -tag!" },
+  { "de": "täglich", "en": "daily", "hint": "Tag (day) + -lich (-ly)" },
+  { "de": "wöchentlich", "en": "weekly", "hint": "Woche (week) + -lich (-ly)" }
+]

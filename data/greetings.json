@@ -1,0 +1,23 @@
+[
+  { "de": "Hallo", "en": "Hello", "hint": "Universal German greeting" },
+  { "de": "Guten Morgen", "en": "Good morning", "hint": "Guten = good, Morgen = morning" },
+  { "de": "Guten Tag", "en": "Good day", "hint": "Formal daytime greeting" },
+  { "de": "Guten Abend", "en": "Good evening", "hint": "Abend = evening" },
+  { "de": "Gute Nacht", "en": "Good night", "hint": "Said when going to bed" },
+  { "de": "Auf Wiedersehen", "en": "Goodbye (formal)", "hint": "Auf = until, Wiedersehen = seeing again" },
+  { "de": "Tschüss", "en": "Bye (casual)", "hint": "Sounds like 'chews'" },
+  { "de": "Bis bald", "en": "See you soon", "hint": "Bis = until, bald = soon" },
+  { "de": "Bis morgen", "en": "See you tomorrow", "hint": "Bis = until, morgen = tomorrow" },
+  { "de": "Bis später", "en": "See you later", "hint": "Später = later" },
+  { "de": "Danke", "en": "Thank you", "hint": "The essential thank you" },
+  { "de": "Danke schön", "en": "Thank you very much", "hint": "Schön = beautiful/nice" },
+  { "de": "Vielen Dank", "en": "Many thanks", "hint": "Vielen = many" },
+  { "de": "Bitte", "en": "Please / You're welcome", "hint": "Used for both!" },
+  { "de": "Bitte schön", "en": "You're welcome / Here you go", "hint": "Said when handing something over" },
+  { "de": "Entschuldigung", "en": "Excuse me / Sorry", "hint": "For getting attention or apologizing" },
+  { "de": "Herzlich willkommen", "en": "Welcome (heartfelt)", "hint": "Herzlich = heartfelt" },
+  { "de": "Willkommen", "en": "Welcome", "hint": "Will + kommen = want to come" },
+  { "de": "Alles Gute", "en": "All the best", "hint": "Alles = all, Gute = good" },
+  { "de": "Viel Spaß", "en": "Have fun", "hint": "Viel = much, Spaß = fun" },
+  { "de": "Viel Glück", "en": "Good luck", "hint": "Viel = much, Glück = luck" }
+]

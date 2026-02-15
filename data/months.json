@@ -1,0 +1,23 @@
+[
+  { "de": "Januar", "en": "January", "hint": "Very similar to English" },
+  { "de": "Februar", "en": "February", "hint": "Very similar to English" },
+  { "de": "März", "en": "March", "hint": "Sounds like 'mehrts'" },
+  { "de": "April", "en": "April", "hint": "Same as English" },
+  { "de": "Mai", "en": "May", "hint": "Sounds like 'my'" },
+  { "de": "Juni", "en": "June", "hint": "Sounds like 'yoo-nee'" },
+  { "de": "Juli", "en": "July", "hint": "Sounds like 'yoo-lee'" },
+  { "de": "August", "en": "August", "hint": "Same spelling, different pronunciation" },
+  { "de": "September", "en": "September", "hint": "Same as English" },
+  { "de": "Oktober", "en": "October", "hint": "K instead of c" },
+  { "de": "November", "en": "November", "hint": "Same as English" },
+  { "de": "Dezember", "en": "December", "hint": "Z instead of c" },
+  { "de": "der Frühling", "en": "spring (season)", "hint": "Früh = early → early time of year" },
+  { "de": "der Sommer", "en": "summer", "hint": "Very similar to English" },
+  { "de": "der Herbst", "en": "autumn / fall", "hint": "Old English 'herfest' → harvest" },
+  { "de": "der Winter", "en": "winter", "hint": "Same as English" },
+  { "de": "das Jahr", "en": "the year", "hint": "Sounds like 'yahr'" },
+  { "de": "der Monat", "en": "the month", "hint": "Related to 'Mond' (moon)" },
+  { "de": "die Jahreszeit", "en": "the season", "hint": "Jahr (year) + Zeit (time)" },
+  { "de": "jährlich", "en": "yearly / annual", "hint": "Jahr (year) + -lich (-ly)" },
+  { "de": "monatlich", "en": "monthly", "hint": "Monat (month) + -lich (-ly)" }
+]

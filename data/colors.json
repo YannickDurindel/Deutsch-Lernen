@@ -1,0 +1,17 @@
+[
+  { "de": "rot", "en": "red", "hint": "Think 'rot' as in decay → red" },
+  { "de": "blau", "en": "blue", "hint": "Similar to English 'blue'" },
+  { "de": "grün", "en": "green", "hint": "Similar to English 'green'" },
+  { "de": "gelb", "en": "yellow", "hint": "Sounds like 'gelb'" },
+  { "de": "schwarz", "en": "black", "hint": "Think 'Schwarzenegger' = black" },
+  { "de": "weiß", "en": "white", "hint": "Sounds like 'vice'" },
+  { "de": "grau", "en": "gray", "hint": "Similar to English 'gray'" },
+  { "de": "braun", "en": "brown", "hint": "Similar to English 'brown'" },
+  { "de": "orange", "en": "orange", "hint": "Same as English!" },
+  { "de": "rosa", "en": "pink", "hint": "Think 'rose' → rosa" },
+  { "de": "lila", "en": "purple", "hint": "Think 'lilac' → lila" },
+  { "de": "dunkelblau", "en": "dark blue", "hint": "Dunkel (dark) + blau (blue)" },
+  { "de": "hellblau", "en": "light blue", "hint": "Hell (light/bright) + blau (blue)" },
+  { "de": "gold", "en": "gold", "hint": "Same as English" },
+  { "de": "silber", "en": "silver", "hint": "Similar to English 'silver'" }
+]
